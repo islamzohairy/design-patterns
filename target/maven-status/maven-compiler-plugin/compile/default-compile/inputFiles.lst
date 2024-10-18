@@ -1,4 +1,6 @@
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeMachineInterface.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeTouchscreenAdapter.java
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DesignPatterns.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\OldCoffeeMachine.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\KitchenKnife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\Knife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\KnifeFactory.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\KnifeType.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SteakKnife.java

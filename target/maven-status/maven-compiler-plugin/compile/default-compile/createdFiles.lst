@@ -1,2 +1,6 @@
+org\islam\design_patterns\Knife.class
+org\islam\design_patterns\KnifeFactory.class
+org\islam\design_patterns\SteakKnife.class
+org\islam\design_patterns\KitchenKnife.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\KnifeType.class
