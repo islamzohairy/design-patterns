@@ -10,11 +10,6 @@ package org.islam.design_patterns;
 public class DesignPatterns {
 
     public static void main(String[] args) {
-        OldCoffeeMachine oldCoffeeMachine = new OldCoffeeMachine();
-        CoffeeTouchscreenAdapter adabtor = new CoffeeTouchscreenAdapter(oldCoffeeMachine);
 
-        adabtor.chooseSeconedSelection();
-        adabtor.chooseSeconedSelection();
-        adabtor.chooseFirstSelection();
     }
 }
