@@ -11,13 +11,13 @@ package org.islam.design_patterns;
 public class Singleton {
 
     private static Singleton instance;
-    private final String message;
+    private String message;
 
-    public Singleton() {
+    private Singleton() {
         this.message = "Default Message";
     }
 
-    public Singleton(String message) {
+    private Singleton(String message) {
         this.message = message;
     }
 
@@ -39,5 +39,9 @@ public class Singleton {
 
     public void showMessage() {
         System.out.println(this.message);
+    }
+
+    public void updateMessage(String newMessage) {
+        this.message = newMessage;
     }
 }
