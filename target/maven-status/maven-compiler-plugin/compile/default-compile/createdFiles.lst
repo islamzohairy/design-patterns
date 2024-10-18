@@ -1,2 +1,4 @@
+org\islam\design_patterns\IComponent.class
+org\islam\design_patterns\Playlist.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\Song.class
