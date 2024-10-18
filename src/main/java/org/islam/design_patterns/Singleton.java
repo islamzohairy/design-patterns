@@ -41,7 +41,7 @@ public class Singleton {
         System.out.println(this.message);
     }
 
-    public void updateMessage(String newMessage) {
+    public void setMessage(String newMessage) {
         this.message = newMessage;
     }
 }

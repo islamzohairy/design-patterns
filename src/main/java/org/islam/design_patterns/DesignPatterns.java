@@ -26,7 +26,7 @@ public class DesignPatterns {
             System.out.println("Different instances");
         }
 
-        singleton1.updateMessage("New Message");
+        singleton1.setMessage("New Message");
         singleton2.showMessage();
 
     }
