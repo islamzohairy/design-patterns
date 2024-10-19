@@ -1,2 +1,7 @@
+org\islam\design_patterns\ExtraShotDecorator.class
+org\islam\design_patterns\ICoffee.class
+org\islam\design_patterns\MilkDecorator.class
+org\islam\design_patterns\CoffeeDecorator.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\BasicCoffee.class
+org\islam\design_patterns\SugarDecorator.class

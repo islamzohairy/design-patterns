@@ -1,4 +1,7 @@
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeMachineInterface.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeTouchscreenAdapter.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\BasicCoffee.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeDecorator.java
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DesignPatterns.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\OldCoffeeMachine.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\ExtraShotDecorator.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\ICoffee.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\MilkDecorator.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SugarDecorator.java
