@@ -1,6 +1,10 @@
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DesignPatterns.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\KitchenKnife.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\Knife.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\KnifeFactory.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\factories\BudgetKnifeFactory.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\factories\KnifeFactory.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\factories\NormalKnifeFactory.java
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\KnifeType.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SteakKnife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\knives\BudgetKitchenKnife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\knives\BudgetSteakKnife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\knives\KitchenKnife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\knives\Knife.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\knives\SteakKnife.java

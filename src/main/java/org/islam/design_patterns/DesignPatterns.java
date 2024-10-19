@@ -3,6 +3,11 @@
  */
 package org.islam.design_patterns;
 
+import org.islam.design_patterns.factories.BudgetKnifeFactory;
+import org.islam.design_patterns.factories.KnifeFactory;
+import org.islam.design_patterns.factories.NormalKnifeFactory;
+import org.islam.design_patterns.knives.Knife;
+
 /**
  *
  * @author 20114
@@ -10,16 +15,28 @@ package org.islam.design_patterns;
 public class DesignPatterns {
 
     public static void main(String[] args) {
-        final KnifeFactory factory = new KnifeFactory();
+        // init factories
+        final KnifeFactory normalFactory = new NormalKnifeFactory();
+        final KnifeFactory budgetFactory = new BudgetKnifeFactory();
 
-        Knife knife1 = factory.createKnife(KnifeType.KITCHEN);
-        Knife knife2 = factory.createKnife(KnifeType.STEAK);
+        // ordring kitchen knives
+        Knife kitchenKnife = normalFactory.orderKnife(KnifeType.KITCHEN);
+        Knife budgetKitchenKnife = budgetFactory.orderKnife(KnifeType.KITCHEN);
 
-        System.out.println(knife1.getPrice() + "$");
-        System.out.println(knife2.getPrice() + "$");
+        // ordring steak knives
+        Knife steakKnife = normalFactory.orderKnife(KnifeType.STEAK);
+        Knife budgetSteakKnife = budgetFactory.orderKnife(KnifeType.STEAK);
 
-        knife1.setPrice(10);
+        // change the normal prices
+        steakKnife.setPrice(18);
+        kitchenKnife.setPrice(25);
 
-        System.out.println(knife1.getPrice() + "$");
+        // show knives
+        System.out.println("Normal steak knife: " + steakKnife.getPrice() + "$");
+        budgetSteakKnife.showAdMessage();
+
+        System.out.println("Normal kitchen knife: " + kitchenKnife.getPrice() + "$");
+        budgetKitchenKnife.showAdMessage();
+
     }
 }

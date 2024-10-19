@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.islam.design_patterns;
+package org.islam.design_patterns.knives;
+
+import org.islam.design_patterns.KnifeType;
 
 /**
  *
@@ -36,4 +38,7 @@ public abstract class Knife {
         return this.price;
     }
 
+    public void showAdMessage() {
+        System.out.println("Buy this " + this.type + " knife for " + this.price + "$");
+    }
 }
