@@ -1,2 +1,6 @@
+org\islam\design_patterns\models\Order.class
+org\islam\design_patterns\Warehouse.class
+org\islam\design_patterns\IWarehouse.class
+org\islam\design_patterns\WarehouseProxy.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\models\Item.class
