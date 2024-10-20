@@ -12,7 +12,10 @@ import java.math.BigDecimal;
 public class DesignPatterns {
 
     public static void main(String[] args) {
+        // init facade obj
         BankService bankService = new BankService();
+
+        // Create 2 bank accounts
         String mySavingAccountID = bankService.createNewAccount(AccountType.saving, BigDecimal.valueOf(0.00));
         String myInvestmentAccountID = bankService.createNewAccount(AccountType.investment, BigDecimal.valueOf(0.00));
 
