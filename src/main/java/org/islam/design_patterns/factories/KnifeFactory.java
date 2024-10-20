@@ -13,6 +13,8 @@ import org.islam.design_patterns.knives.Knife;
  */
 public abstract class KnifeFactory {
 
+    abstract Knife createKnife(KnifeType type);
+
     public Knife orderKnife(KnifeType type) {
         Knife knife = createKnife(type);
 
@@ -25,5 +27,4 @@ public abstract class KnifeFactory {
         return knife;
     }
 
-    abstract Knife createKnife(KnifeType type);
 }
