@@ -19,19 +19,19 @@ public class Chequing extends BankAccount {
     @Override
     public void deposit(BigDecimal amount) {
         super.deposit(amount);
-        System.out.println("Deposite Suceeded\nChequing balnce:  " + super.balance);
+        System.out.println("Deposite Suceeded\nChequing balance:  " + super.balance);
     }
 
     @Override
     public void withdraw(BigDecimal amount) {
         super.withdraw(amount);
-        System.out.println("Withdraw Suceeded\nChequing balnce:  " + super.balance);
+        System.out.println("Withdraw Suceeded\nChequing balance:  " + super.balance);
     }
 
     @Override
     public void transfer(BigDecimal amount) {
         super.transfer(amount);
-        System.out.println("Transfer Suceeded\nChequing balnce:  " + super.balance);
+        System.out.println("Transfer Suceeded\nChequing balance:  " + super.balance);
     }
 
 }

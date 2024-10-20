@@ -11,7 +11,7 @@ import java.util.UUID;
  *
  * @author 20114
  */
-public class BankAccount implements IAccount {
+public abstract class BankAccount implements IAccount {
 
     protected BigDecimal balance = BigDecimal.ZERO;
     private final String id;

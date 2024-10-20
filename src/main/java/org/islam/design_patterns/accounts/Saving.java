@@ -19,19 +19,19 @@ public class Saving extends BankAccount {
     @Override
     public void deposit(BigDecimal amount) {
         super.deposit(amount);
-        System.out.println("Deposite Suceeded\nSaving balnce:  " + super.balance);
+        System.out.println("Deposite Suceeded\nSaving balance:  " + super.balance);
     }
 
     @Override
     public void withdraw(BigDecimal amount) {
         super.withdraw(amount);
-        System.out.println("Withdraw Suceeded\nSaving balnce:  " + super.balance);
+        System.out.println("Withdraw Suceeded\nSaving balance:  " + super.balance);
     }
 
     @Override
     public void transfer(BigDecimal amount) {
         super.transfer(amount);
-        System.out.println("Transfer Suceeded\nSaving balnce:  " + super.balance);
+        System.out.println("Transfer Suceeded\nSaving balance:  " + super.balance);
     }
 
 }
