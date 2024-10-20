@@ -19,10 +19,6 @@ public class KnifeFactory {
             knife = new SteakKnife();
         }
 
-        knife.sharpen();
-        knife.polish();
-        knife.pack();
-
         return knife;
     }
 }

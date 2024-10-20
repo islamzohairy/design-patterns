@@ -15,11 +15,19 @@ public class DesignPatterns {
         Knife knife1 = factory.createKnife(KnifeType.KITCHEN);
         Knife knife2 = factory.createKnife(KnifeType.STEAK);
 
-        System.out.println(knife1.getPrice() + "$");
-        System.out.println(knife2.getPrice() + "$");
+        knife1.sharpen();
+        knife1.polish();
+        knife1.pack();
+
+        knife2.sharpen();
+        knife2.polish();
+        knife2.pack();
+
+        System.out.println("Kitchen Knife: " + knife1.getPrice() + "$");
+        System.out.println("Steak Knife: " + knife2.getPrice() + "$");
 
         knife1.setPrice(10);
 
-        System.out.println(knife1.getPrice() + "$");
+        System.out.println("Kitchen Knife after sale: " + knife1.getPrice() + "$");
     }
 }
