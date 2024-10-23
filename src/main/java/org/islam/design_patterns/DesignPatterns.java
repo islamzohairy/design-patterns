@@ -10,6 +10,14 @@ package org.islam.design_patterns;
 public class DesignPatterns {
 
     public static void main(String[] args) {
+        CaffeineBeverage tea = new Tea();
+        CaffeineBeverage coffee = new Coffee();
 
+        System.out.println("\nTea: ");
+        tea.prepare();
+
+        System.out.println("\nCoffee: ");
+        coffee.prepare();
     }
+
 }
