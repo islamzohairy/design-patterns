@@ -1,4 +1,7 @@
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeMachineInterface.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeTouchscreenAdapter.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoinInsertedState.java
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DesignPatterns.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\OldCoffeeMachine.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DispensingState.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\IdleState.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\OutOfStockState.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\VendingMachine.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\VendingMachineState.java
