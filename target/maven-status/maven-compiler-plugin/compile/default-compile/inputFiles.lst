@@ -1,4 +1,6 @@
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeMachineInterface.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeTouchscreenAdapter.java
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DesignPatterns.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\OldCoffeeMachine.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\Director.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\Manager.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\President.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\PurchaseHandler.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\PurchaseRequest.java

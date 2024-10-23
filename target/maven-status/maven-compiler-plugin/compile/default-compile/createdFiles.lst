@@ -1,2 +1,6 @@
+org\islam\design_patterns\PurchaseHandler.class
+org\islam\design_patterns\Manager.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\Director.class
+org\islam\design_patterns\President.class
+org\islam\design_patterns\PurchaseRequest.class
