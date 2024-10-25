@@ -1,2 +1,5 @@
+org\islam\design_patterns\TextEditingCommand.class
+org\islam\design_patterns\TextEditingManager.class
+org\islam\design_patterns\AddTextCommand.class
+org\islam\design_patterns\Document.class
 org\islam\design_patterns\DesignPatterns.class
-
