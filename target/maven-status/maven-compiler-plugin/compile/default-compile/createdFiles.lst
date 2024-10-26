@@ -1,2 +1,6 @@
+org\islam\design_patterns\SmartThermostat.class
+org\islam\design_patterns\SmartLight.class
+org\islam\design_patterns\Device.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\SmartHomeMediatorImpl.class
+org\islam\design_patterns\SmartHomeMediator.class

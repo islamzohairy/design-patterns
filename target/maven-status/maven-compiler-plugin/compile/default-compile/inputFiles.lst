@@ -1,4 +1,6 @@
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeMachineInterface.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\CoffeeTouchscreenAdapter.java
 D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\DesignPatterns.java
-D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\OldCoffeeMachine.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\Device.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SmartHomeMediator.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SmartHomeMediatorImpl.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SmartLight.java
+D:\development\Java\design-patterns\src\main\java\org\islam\design_patterns\SmartThermostat.java
