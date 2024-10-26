@@ -1,2 +1,5 @@
+org\islam\design_patterns\StockMarket.class
+org\islam\design_patterns\Broker2.class
 org\islam\design_patterns\DesignPatterns.class
-
+org\islam\design_patterns\StocksObserver.class
+org\islam\design_patterns\Broker1.class
